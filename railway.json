@@ -2,6 +2,8 @@
   "deploy": {
     "startCommand": "/usr/local/bin/n8n start",
     "healthcheckPath": "/",
+    "healthcheckTimeout": 30,  
+    "healthcheckInterval": 10,
     "port": 5678
   }
 }
