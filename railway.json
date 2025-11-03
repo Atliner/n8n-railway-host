@@ -1,0 +1,7 @@
+{
+  "deploy": {
+    "startCommand": "/usr/local/bin/n8n start",
+    "healthcheckPath": "/",
+    "port": 5678
+  }
+}
